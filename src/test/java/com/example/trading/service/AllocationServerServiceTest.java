@@ -110,7 +110,7 @@ public class AllocationServerServiceTest {
         // Account3 should still have 2 GOOGL
         assertPositions("Account3", "GOOGL", 2, 300.0);
     }
-    
+
     @Test
     public void testNoStockSell() {
         // Given

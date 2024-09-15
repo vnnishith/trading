@@ -22,7 +22,8 @@ This is a sample project to provide example on trade simulation to simulate allo
 * Run 
 *  Execute the following to execute the application.
 ```java
-mvn clean install -DskipTests
+mvn clean package -DskipTests
+mvn spring-boot:run 
 ```
 Alternatively, the application can also be running using docker with the following commands
 ```java
